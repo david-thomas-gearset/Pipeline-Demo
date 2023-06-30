@@ -93,6 +93,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Ownership</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4692,4 +4697,8 @@
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
     </userPermissions>
+    <classAccesses>
+        <apexClass>UpdatePortalDiscount_FailingTests</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
 </Profile>
